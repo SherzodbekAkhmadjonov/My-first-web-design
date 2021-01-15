@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 9vh;
+    background-color: black;
+    
+    
+}
+.menu  > ul > li{
+    list-style-type: none;
+    display: inline-block;
+    
+    
+    
+    
+}
+ .menu > ul > li > a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.menu > ul > li > a:hover{
+    color: cyan;
+    border-bottom: 2px solid cyan;
+    border-radius: 12px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.smallblock{
+    padding: 30px;
+}
+
+.block2{
+    color: darkblue;
+    font-size: 23px;
+}
+.block2{
+    transition: width 2s, height 4s;
+} 
+button{
+    color: red;
+    font-size: 9px;
+    background: linear-gradient( to left, #0EF911, #FFE000);
+    width: 100px;
+    height: 60px;
+    border: 2px solid #0482e9de;
+  
+}
+button:hover{
+    cursor: pointer;
+    animation-name: button;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color: black;
+    font-size: 12px;
+    background: linear-gradient(to top, #1AF5D4, #F7C016);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px solid #0cf332e3;
+    border: 2px solid #0cf332e3;
+
+}
+@keyframes button{
+    0%{
+        color: red;
+        font-size: 9px;
+        background: linear-gradient(to left, #2A79F9 #F16C16);
+        width: 100px;
+        height: 60px;
+        border: 2px solid #0482e9de;
+        border-radius: 20px solid blue;
+    }
+    100%{
+        color: black;
+        font-size: 12px;
+        background: linear-gradient(to top, #1AF5D4, #F7C016);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 20px solid blue;
+        border: 2px solid #0cf332e3;
+    }
+}

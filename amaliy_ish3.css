@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+.container{
+    background-image: url(background.png);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    align-items: center;
+    
+    
+}
+.first{
+    width: 160px;
+    cursor: pointer;
+    padding-left: 100px;
+}
+nav{
+    flex: 1;
+    padding: 50px;
+}
+nav > ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 20px;
+    
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+} 
+nav > ul > li{
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.content{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.content > h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60
+}
+.content > p{
+    font-size: 24px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(167, 161, 161, 0.911);
+}
+.content > button{
+    outline: none;
+    border: none;
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68, 0.15);  
+}
+.photo{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+.back{
+    width: 5vh;
+    height: 5vh;
+    padding-top: 10vh;
+    padding-left: 2vh;
+}
+.channels{
+        transform: rotate(-90deg);
+        position: absolute;
+        left: -50px;
+        bottom: 180px;
+}
+.channels > a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7962e2;
+    padding-right: 20px;
+    
+    
+}
+.cart{
+    width: 4vh;
+    cursor: pointer;
+}
